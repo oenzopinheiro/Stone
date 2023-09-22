@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 4rem 4rem;
+}
+
+.div-initial{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.date{
+    color: #45505E;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 500;  
+}
+
+.paragraph{
+    color: #8C9CAD;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 400;  
+}
+
+.name{
+    color: #2E3742;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.containerMain{
+    margin-top: 6.5rem;
+}
+
+.containerFooter{
+    margin-top: 1rem;
+}
+
+.input{
+    width: 10.5rem;
+    height: 3.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    box-shadow: 0px 8px 4px 0px rgba(13, 17, 27, 0.08);
+    border: none;
+    padding: 1rem;
+}
+
+.name-dolar{
+    color: #2E3742;
+    font-family: Sharon Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.name-card{
+    color: #8C9CAD;
+    font-family: Sharon Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.divs-input{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.inputs-radio{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.radio{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button{
+    margin-top: 2rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid  #008B57;
+    background: #8C9CAD;
+    border: none;
+    color: white;
+}
+
+.result{
+    margin-top: 2rem;
+}
+
+.name-result{
+    color: #45505E;
+    font-family: Sharon Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.value-result{
+    color: #00AB63;
+    font-family: Sharon Sans;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.button-back{
+    width: 7.5rem;
+    height: 3.5rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem; 
+
+    border-radius: 0.5rem;
+    border: 1px solid #D7E0EB;
+    background: #FFF;
+
+    box-shadow: 0px 8px 4px 0px rgba(13, 17, 27, 0.08);
+}
+
+.percentage{
+    color: var(--blacks-greys-medium-gray, #6E7E90);
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.type-buy{
+    margin-top: 2rem;
+}

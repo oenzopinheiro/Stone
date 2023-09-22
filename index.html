@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Stone</title>
+</head>
+<body>
+    <header>
+        <div class="div-initial">
+            <div>
+                 <img src="/Assets/Mask.png">
+            </div>
+            <div>
+                 <span class="date">14 de janeiro 2021    |     21:00 UTC</span>
+                 <p class="paragraph">Dados de câmbio disponibilizados pela Morningstar.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="containerMain">
+        <div class="divs-input">
+             <div>
+                <p class="name">Dólar</p>
+                 <input type="number" placeholder="$ 1,00" class="input name-dolar">
+             </div>
+             <div>
+                <p class="name">Taxa do Estado</p>
+                 <input type="number" placeholder="0%" class="input name-card">
+             </div>  
+        </div>
+    </main>
+
+    <footer class="containerFooter">
+        <div>
+            
+            <p class="name type-buy" >Tipo de compra</p>
+
+            <div class="inputs-radio">
+                <div class="radio">
+                     <input type="radio" class="radioOne">
+                 <p class="name-dolar">Dinheiro</p> 
+                </div>
+               
+                <div class="radio">
+                   <input type="radio" class="radioTwo">
+                 <p class="name-dolar">Cartão</p> 
+                </div>
+            </div>
+
+           <a href="/main.html">
+            <button class="button" onclick="calc()"><img src="/Assets/Transfer.png"> Converter</button>
+        </a> 
+
+        </div>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+</html>
