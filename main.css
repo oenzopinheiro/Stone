@@ -6,6 +6,8 @@
 
 body{
     padding: 4rem 4rem;
+    background: url(/Assets/background.png) no-repeat 100% 0;
+    
 }
 
 .div-initial{
